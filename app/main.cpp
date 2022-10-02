@@ -1,12 +1,8 @@
 #include <iostream>
-
-// class PidController(){
-//     private :
-
-// };
+#include <lib.hpp>
 
 int main()
 {
-   // write code here
+    dummy();
     return 0;
 }
