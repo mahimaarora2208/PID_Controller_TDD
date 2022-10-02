@@ -1,9 +1,10 @@
 #include <iostream>
-#include <lib.hpp>
+// #include <lib.hpp>
 
 int main()
 {
-    dummy();
+    // dummy();
+    std::cout << "TestCode";
     return 0;
 
 }

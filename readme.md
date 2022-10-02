@@ -1,8 +1,11 @@
-# C++ Boilerplate
+# PID Controller 
 [![Build Status](https://app.travis-ci.com/mahimaarora2208/PID_Controller_TDD.svg?branch=master)](https://app.travis-ci.com/mahimaarora2208/PID_Controller_TDD)
 [![Coverage Status](https://coveralls.io/repos/github/mahimaarora2208/PID_Controller_TDD/badge.svg?branch=master)](https://coveralls.io/github/mahimaarora2208/PID_Controller_TDD?branch=master)
 ---
 
+## Author
+- Mahima Arora (Driver1)
+- Harika Pendeli (Navigator1)
 ## Overview
 
 Simple starter C++ project with:
