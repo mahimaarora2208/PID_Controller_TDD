@@ -22,7 +22,7 @@ PidController::PidController(double K_p, double K_i, double K_d, double d_t) {
 
 double PidController::computePidOutput(double Kp, double Ki, double Kd) {
     std::cout << "Inside computeVelcity Class Member!" << std::endl;
-    return 5;
+    return 7;
 }
 
 double PidController::derivativeContoller(double Kd) {
@@ -40,5 +40,5 @@ double PidController::proportionalController(double Kp) {
 }
 
 bool PidController::checkParameters() {
-    return false;  // returns true if all parameters are present
+    return true;  // returns true if all parameters are present
 }
