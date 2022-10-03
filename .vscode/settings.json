@@ -23,5 +23,8 @@
         "RichardHe.you-complete-me",
         "vector-of-bool.cmake-tools"
     ],
-    "ros.distro": "noetic"
+    "ros.distro": "noetic",
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

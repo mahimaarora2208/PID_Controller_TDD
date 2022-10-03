@@ -30,9 +30,10 @@ class PidController {
 
    public:
     PidController(double Kp, double Ki, double Kd, double dt);
-    double derivativeContoller(double){};
-    double integralController(double){};
-    double proportionalController(double){};
-    double computePidOutput(double, double, double){};
+    double derivativeContoller(double);
+    double integralController(double);
+    double proportionalController(double);
+    double computePidOutput(double, double, double);
+    bool checkParameters();
 };
 #endif  // PIDCONTROLLER_HPP_

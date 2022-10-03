@@ -9,8 +9,9 @@
  * @dependencies: This file needs "pidController.hpp"
  */
 
-#include <iostream>
 #include "pidController.hpp"
+
+#include <iostream>
 
 PidController::PidController(double K_p, double K_i, double K_d, double d_t) {
     Kp = K_p;
@@ -21,22 +22,23 @@ PidController::PidController(double K_p, double K_i, double K_d, double d_t) {
 
 double PidController::computePidOutput(double Kp, double Ki, double Kd) {
     std::cout << "Inside computeVelcity Class Member!" << std::endl;
-    return 0;
+    return 5;
 }
 
 double PidController::derivativeContoller(double Kd) {
     // returns derivative error
     return 0;
-};
+}
 
 double PidController::integralController(double Ki) {
     // returns integral error
     return 0;
-};
+}
 double PidController::proportionalController(double Kp) {
     // returns proportional error
     return 0;
-};
-int main() {
-    std::cout << "stupid program!!!!";
+}
+
+bool PidController::checkParameters() {
+    return true;  // returns true if all parameters are present
 }

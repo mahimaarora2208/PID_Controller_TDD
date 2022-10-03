@@ -13,7 +13,5 @@
 #include <pidController.hpp>
 
 int main() {
-    // dummy();
-    std::cout << "TestCode!!";
-    return 0;
+    std::cout << "stupid program!!!!";
 }
