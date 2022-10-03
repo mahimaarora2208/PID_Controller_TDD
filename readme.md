@@ -4,8 +4,8 @@
 ---
 
 ## Author
-- Mahima Arora (Driver1)
-- Harika Pendeli (Navigator1)
+- Mahima Arora (Driver1) [Github Link](https://github.com/mahimaarora2208)
+- Harika Pendli (Navigator1) [Github Link](https://github.com/harika-pendli)
 ## Overview
 
 Simple starter C++ project with:
