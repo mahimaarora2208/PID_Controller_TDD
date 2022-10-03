@@ -13,5 +13,5 @@
 #include <pidController.hpp>
 
 int main() {
-    std::cout << "stupid program!!!!";
+    std::cout << "Code goes here for creating PID classes!";
 }

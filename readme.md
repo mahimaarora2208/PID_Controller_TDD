@@ -6,6 +6,11 @@
 ## Author
 - Mahima Arora (Driver1) [Github Link](https://github.com/mahimaarora2208)
 - Harika Pendli (Navigator1) [Github Link](https://github.com/harika-pendli)
+
+## UML Diagram
+<p align="center">
+<img src="UML/umlDiagram.png"/>
+</p>
 ## Overview
 
 Simple starter C++ project with:
