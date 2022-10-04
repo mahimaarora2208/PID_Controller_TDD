@@ -1,6 +1,6 @@
 # PID Controller 
 [![Build Status](https://app.travis-ci.com/mahimaarora2208/PID_Controller_TDD.svg?branch=master)](https://app.travis-ci.com/mahimaarora2208/PID_Controller_TDD)
-[![Coverage Status](https://coveralls.io/repos/github/mahimaarora2208/PID_Controller_TDD/badge.svg?branch=master)](https://coveralls.io/github/mahimaarora2208/PID_Controller_TDD?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/mahimaarora2208/PID_Controller_TDD/badge.svg)](https://coveralls.io/github/mahimaarora2208/PID_Controller_TDD)
 ---
 
 ## Author
