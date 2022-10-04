@@ -11,13 +11,10 @@
 <p align="center">
 <img src="UML/umlDiagram.png"/>
 </p>
+
 ## Overview
 
-Simple starter C++ project with:
-
-- cmake
-- googletest
-
+PID Controller stub code is included here. 
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/dpiet/cpp-boilerplate

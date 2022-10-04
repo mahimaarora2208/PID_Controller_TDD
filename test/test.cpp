@@ -16,7 +16,7 @@
 TEST(PidTests, test_computePidOutput) {
     PidController PidController(0.1, 0.2, 0.1, 0.005);
     double result = PidController.computePidOutput(0.1, 0.2, 0.1);
-    ASSERT_EQ(result, 7);
+    ASSERT_EQ(result, 5);
     // use ASSERT_NEAR for PID controller for real values
 }
 
@@ -24,5 +24,6 @@ TEST(checkAllParameters, test_checkParameters) {
     PidController PidController(0.1, 0.2, 0.1, 0.005);
     bool result = PidController.checkParameters();
     ASSERT_TRUE(result); // returns true if all parameters are present
+    
     // use ASSERT_NEAR for PID controller for real values
 }

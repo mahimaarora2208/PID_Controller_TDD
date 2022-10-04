@@ -40,5 +40,5 @@ double PidController::proportionalController(double Kp) {
 }
 
 bool PidController::checkParameters() {
-    return true;  // returns true if all parameters are present
+    return false;  // returns true if all parameters are present
 }
