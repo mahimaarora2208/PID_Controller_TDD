@@ -1,4 +1,6 @@
-## ENPM808X Software Development for Robotics 
+## ENPM808X Software Development for Robotics
+- @version 1.0
+- @copyright GNU Public License
 # PID Controller with TDD
 [![Build Status](https://app.travis-ci.com/mahimaarora2208/PID_Controller_TDD.svg?branch=master)](https://app.travis-ci.com/mahimaarora2208/PID_Controller_TDD)
 [![Coverage Status](https://coveralls.io/repos/github/mahimaarora2208/PID_Controller_TDD/badge.svg)](https://coveralls.io/github/mahimaarora2208/PID_Controller_TDD)
@@ -8,14 +10,10 @@
 Part1:
 - Mahima Arora (Driver1) [Github Link](https://github.com/mahimaarora2208)
 - Harika Pendli (Navigator1) [Github Link](https://github.com/harika-pendli)
-@version 1.0
-@copyright GNU Public License
 
 Part2:
 - Badri (Driver2) [Github Link](https://github.com/Irdab2000)
 - Shelvin Pauly(Navigator2) [Github Link](https://github.com/spauly98)
-@version 1.0
-@copyright GNU Public License
 
 ## UML Diagram
 <p align="center">
@@ -29,6 +27,9 @@ Repository for a simple PID Controller implementation using:
 - googletest
 - Travis
 - Coveralls
+- Doxygen
+- Google C++ Styling
+-
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/mahimaarora2208/PID_Controller_TDD
@@ -42,7 +43,7 @@ Run program: ./app/shell-app
 ```
 
 ## Building for code coverage (lcov)
-```
+
 sudo apt-get install lcov 
 cmake -D COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug ../
 make
@@ -71,7 +72,7 @@ A design review was done for the code by authors of Part 2
 
 - Suggestions
 1. Styling for code was not according to Google C++ Style. 
-``` 
+
 
 ## Working with VSC
 
@@ -120,9 +121,7 @@ pip install cpplint
 cpplint "FIlename.cpp"
 ```
 
--cppCheck
+- cppCheck
 ```
 cppcheck --enable=all --std=c++11 -I include/ --suppress=missingIncludeSystem $( find . -name *.cpp | grep -vE -e "^./build/" -e "^./vendor/" )
 ```
-- 
-
