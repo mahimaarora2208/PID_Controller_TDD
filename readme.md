@@ -4,8 +4,13 @@
 ---
 
 ## Author
+Part 1:-
 - Mahima Arora (Driver1) [Github Link](https://github.com/mahimaarora2208)
 - Harika Pendli (Navigator1) [Github Link](https://github.com/harika-pendli)
+
+Part 2:-
+- Shelvin Pauly (Driver2) [Github Link] (https://github.com/spauly98)
+- Badrinarayanan Raghunathan Srikumar (Navigator2) [Github Link] (https://github.com/Irdab2000)
 
 ## UML Diagram
 <p align="center">

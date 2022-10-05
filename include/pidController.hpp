@@ -3,6 +3,7 @@
  * @author Mahima Arora (marora1@umd.edu)
  * @brief .hpp file for PID controller
  * @version 0.1
+ * @copyright GNU Public License
  * @date 2022-10-02
  * @section Class Description
  *
@@ -10,14 +11,14 @@
  *
  */
 
-#ifndef PIDCONTROLLER_HPP_
-#define PIDCONTROLLER_HPP_
+#ifndef INCLUDE_PIDCONTROLLER_HPP_
+#define INCLUDE_PIDCONTROLLER_HPP_
 
 /**
  *  @brief Class that implements PID Controller
  */
 class PidController {
-   private:
+ private:
     double Kp;            // Proportional Gain
     double Ki;            // Integral Gain
     double Kd;            // Differential Gain
@@ -28,12 +29,12 @@ class PidController {
     double prevError;
     double integralSum;
 
-   public:
-    PidController(double Kp, double Ki, double Kd, double dt);
+ public:
+    PidController(double, double, double, double, double, double);
     double derivativeContoller(double);
     double integralController(double);
     double proportionalController(double);
-    double computePidOutput(double, double, double);
+    double computePidOutput();
     bool checkParameters();
 };
-#endif  // PIDCONTROLLER_HPP_
+#endif  // INCLUDE_PIDCONTROLLER_HPP_
