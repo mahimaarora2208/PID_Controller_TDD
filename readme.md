@@ -1,10 +1,7 @@
 [![Build Status](https://app.travis-ci.com/mahimaarora2208/PID_Controller_TDD.svg?branch=master)](https://app.travis-ci.com/mahimaarora2208/PID_Controller_TDD)
 [![Coverage Status](https://coveralls.io/repos/github/mahimaarora2208/PID_Controller_TDD/badge.svg)](https://coveralls.io/github/mahimaarora2208/PID_Controller_TDD)
 ---
-## ENPM808X Software Development for Robotics
-# PID Controller with TDD
-
-
+## ENPM808X Software Development for Robotics: PID Controller with TDD
 ## Author
 Part1:
 - Mahima Arora (Driver1) [Github Link](https://github.com/mahimaarora2208)
@@ -28,7 +25,7 @@ Repository for a simple PID Controller implementation using:
 - Coveralls
 - Doxygen
 - Google C++ Styling
--
+
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/mahimaarora2208/PID_Controller_TDD
@@ -57,20 +54,20 @@ There is a coverage folder which contains the output for repository.
 A design review was done for the code by authors of Part 1
 
 - Changes
-1. Added private member to class - prevError to store previous error to implement derivative controller.
+  1. Added private member to class - prevError to store previous error to implement derivative controller.
 
 - Suggestions
-1. File was not formatted with Cpplint and CppCheck
+  1. File was not formatted with Cpplint and CppCheck
 
 A design review was done for the code by authors of Part 2
 
 - Changes
-1. Added two new private attributes - KiError and prev_erorr. KiError was to accumulate the integral error. prev_error was used to store the output of the previous state to be used to calculate derivative error.
+  1. Added two new private attributes - KiError and prev_erorr. KiError was to accumulate the integral error. prev_error was used to store the output of the previous state to be used to calculate derivative error.
 
-2. Modified test case for the function that computes the controller output.
+  2. Modified test case for the function that computes the controller output.
 
 - Suggestions
-1. Styling for code was not according to Google C++ Style. 
+  1. Styling for code was not according to Google C++ Style. 
 
 
 ## Working with VSC
