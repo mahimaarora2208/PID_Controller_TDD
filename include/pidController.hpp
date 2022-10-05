@@ -11,8 +11,8 @@
  *
  */
 
-#ifndef INCLUDE_PIDCONTROLLER_HPP_
-#define INCLUDE_PIDCONTROLLER_HPP_
+#ifndef DESKTOP_GIT_PID_CONTROLLER_TDD_INCLUDE_PIDCONTROLLER_HPP_
+#define DESKTOP_GIT_PID_CONTROLLER_TDD_INCLUDE_PIDCONTROLLER_HPP_
 
 /**
  *  @brief Class that implements PID Controller
@@ -37,4 +37,4 @@ class PidController {
   double computePidOutput();
   bool checkParameters();
 };
-#endif  // INCLUDE_PIDCONTROLLER_HPP_
+#endif  // DESKTOP_GIT_PID_CONTROLLER_TDD_INCLUDE_PIDCONTROLLER_HPP_
