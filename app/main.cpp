@@ -10,13 +10,14 @@
  */
 // Included the required header files
 #include <iostream>
+
 #include "../include/pidController.hpp"
 /**
- * @brief Function to initialize the controller constants 
-          and call the compute functions which calculates the 
+ * @brief Function to initialize the controller constants
+          and call the compute functions which calculates the
           final velocity.
- * 
- * @return int 
+ *
+ * @return int
  */
 
 // Parameters that are being passed:
@@ -27,7 +28,7 @@
 // process variable = 1
 // Number of iterations = 200
 int main() {
-    PidController pidTest(0.5, 1, 0.01, 0.05, 1, 200);
-    pidTest.computePidOutput();
-    return 0;
+  PidController pidTest(0.5, 1, 0.01, 0.05, 1, 200);
+  pidTest.computePidOutput();
+  return 0;
 }
