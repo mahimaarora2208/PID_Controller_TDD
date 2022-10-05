@@ -49,6 +49,8 @@ This generates a index.html page in the build/coverage sub-directory that can be
 
 There is a coverage folder which contains the output for repository.
 
+Note: The screenshot of the coverage was also added in the coverage folder by name : PidCodeCoverage.jpeg
+
 ## Design Review ##
 
 A design review was done for the code by authors of Part 1
